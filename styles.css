@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(143, 155, 174);
+    display: flex;
+    justify-content: center;
+}
+
+svg {
+    background-color: white;
+    margin: 15vh;
+    box-shadow: 2px 2px 20px;
+}
+
+#title {
+    font-size: xx-large;
+}
+
+.bar {
+    fill: rgb(46, 144, 241);
+}
+
+.bar:hover {
+    fill: brown;
+}
+
+#tooltip {
+    width: auto;
+    height: auto;
+    padding: 0 10px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    background-color: rgba(143, 155, 174, 0.5);
+    text-align: center;
+}
+
+p {
+    font-size: small;
+}
